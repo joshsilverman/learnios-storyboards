@@ -52,7 +52,7 @@
             </objects>
             <point key="canvasLocation" x="1649" y="-330"/>
         </scene>
-        <!--View Controller - Second Tab-->
+        <!--View Controller - Gestures-->
         <scene sceneID="rW6-of-MLD">
             <objects>
                 <viewController id="CbM-go-4L0" sceneMemberID="viewController">
@@ -69,17 +69,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second Tab" id="qXA-au-H6B"/>
+                    <tabBarItem key="tabBarItem" title="Gestures" image="Gestures.png" id="qXA-au-H6B"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b9J-8K-rZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1123" y="363"/>
         </scene>
-        <!--Navigation Controller - First Tab-->
+        <!--Navigation Controller - Players-->
         <scene sceneID="mi2-Ug-VN2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DBC-eV-YFi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First Tab" id="tRp-Hw-Xhj"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="Players.png" id="tRp-Hw-Xhj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bv4-VL-G19">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -95,6 +95,10 @@
             <point key="canvasLocation" x="1123" y="-330"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures.png" width="30" height="30"/>
+        <image name="Players.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
