@@ -62,10 +62,29 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
     
     WSRPlayer *player = (self.players)[indexPath.row];
-    cell.textLabel.text = player.name;
-    cell.detailTextLabel.text = player.game;
+    
+    UILabel *nameLabel = (UILabel *)[cell viewWithTag:100];
+    nameLabel.text = player.name;
+    
+    UILabel *gameLabel = (UILabel *)[cell viewWithTag:101];
+    gameLabel.text = player.game;
+    
+    UIImageView *ratingImageView = (UIImageView *)[cell viewWithTag:102];
+    ratingImageView.image = [self imageForRating:player.rating];
     
     return cell;
+}
+
+- (UIImage *)imageForRating:(int) rating
+{
+    switch (rating) {
+        case 1: return [UIImage imageNamed:@"1StarSmall"];
+        case 2: return [UIImage imageNamed:@"2StarSmall"];
+        case 3: return [UIImage imageNamed:@"3StarSmall"];
+        case 4: return [UIImage imageNamed:@"4StarSmall"];
+        case 5: return [UIImage imageNamed:@"5StarSmall"];
+        default: return nil;
+    }
 }
 
 /*
