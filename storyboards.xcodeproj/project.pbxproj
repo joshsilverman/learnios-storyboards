@@ -45,6 +45,8 @@
 		9EA80D16190F32B5005A2AF3 /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA80CFE190F32B5005A2AF3 /* Gestures@2x.png */; };
 		9EA80D17190F32B5005A2AF3 /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA80CFF190F32B5005A2AF3 /* Players.png */; };
 		9EA80D18190F32B5005A2AF3 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA80D00190F32B5005A2AF3 /* Players@2x.png */; };
+		9EA80D1B190F3482005A2AF3 /* WSRPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA80D1A190F3482005A2AF3 /* WSRPlayersViewController.m */; };
+		9EA80D1E190F355B005A2AF3 /* WSRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA80D1D190F355B005A2AF3 /* WSRPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,10 @@
 		9EA80CFE190F32B5005A2AF3 /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
 		9EA80CFF190F32B5005A2AF3 /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Players.png; sourceTree = "<group>"; };
 		9EA80D00190F32B5005A2AF3 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
+		9EA80D19190F3482005A2AF3 /* WSRPlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRPlayersViewController.h; sourceTree = "<group>"; };
+		9EA80D1A190F3482005A2AF3 /* WSRPlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRPlayersViewController.m; sourceTree = "<group>"; };
+		9EA80D1C190F355B005A2AF3 /* WSRPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRPlayer.h; sourceTree = "<group>"; };
+		9EA80D1D190F355B005A2AF3 /* WSRPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,10 @@
 				9E90E296190E85860029DB6E /* WSRAppDelegate.h */,
 				9E90E297190E85860029DB6E /* WSRAppDelegate.m */,
 				9E90E299190E85860029DB6E /* Main.storyboard */,
+				9EA80D19190F3482005A2AF3 /* WSRPlayersViewController.h */,
+				9EA80D1C190F355B005A2AF3 /* WSRPlayer.h */,
+				9EA80D1D190F355B005A2AF3 /* WSRPlayer.m */,
+				9EA80D1A190F3482005A2AF3 /* WSRPlayersViewController.m */,
 				9E90E29C190E85860029DB6E /* WSRViewController.h */,
 				9E90E29D190E85860029DB6E /* WSRViewController.m */,
 				9E90E29F190E85860029DB6E /* Images.xcassets */,
@@ -355,6 +365,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA80D1B190F3482005A2AF3 /* WSRPlayersViewController.m in Sources */,
+				9EA80D1E190F355B005A2AF3 /* WSRPlayer.m in Sources */,
 				9E90E294190E85860029DB6E /* main.m in Sources */,
 				9E90E298190E85860029DB6E /* WSRAppDelegate.m in Sources */,
 				9E90E29E190E85860029DB6E /* WSRViewController.m in Sources */,
