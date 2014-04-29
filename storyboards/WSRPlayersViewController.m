@@ -79,10 +79,10 @@
 {
     switch (rating) {
         case 1: return [UIImage imageNamed:@"1StarSmall"];
-        case 2: return [UIImage imageNamed:@"2StarSmall"];
-        case 3: return [UIImage imageNamed:@"3StarSmall"];
-        case 4: return [UIImage imageNamed:@"4StarSmall"];
-        case 5: return [UIImage imageNamed:@"5StarSmall"];
+        case 2: return [UIImage imageNamed:@"2StarsSmall"];
+        case 3: return [UIImage imageNamed:@"3StarsSmall"];
+        case 4: return [UIImage imageNamed:@"4StarsSmall"];
+        case 5: return [UIImage imageNamed:@"5StarsSmall"];
         default: return nil;
     }
 }
