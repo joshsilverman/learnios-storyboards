@@ -47,6 +47,7 @@
 		9EA80D18190F32B5005A2AF3 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA80D00190F32B5005A2AF3 /* Players@2x.png */; };
 		9EA80D1B190F3482005A2AF3 /* WSRPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA80D1A190F3482005A2AF3 /* WSRPlayersViewController.m */; };
 		9EA80D1E190F355B005A2AF3 /* WSRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA80D1D190F355B005A2AF3 /* WSRPlayer.m */; };
+		9EC4C04B19108C8E009B9965 /* WSRPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC4C04A19108C8E009B9965 /* WSRPlayerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		9EA80D1A190F3482005A2AF3 /* WSRPlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRPlayersViewController.m; sourceTree = "<group>"; };
 		9EA80D1C190F355B005A2AF3 /* WSRPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRPlayer.h; sourceTree = "<group>"; };
 		9EA80D1D190F355B005A2AF3 /* WSRPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRPlayer.m; sourceTree = "<group>"; };
+		9EC4C04919108C8E009B9965 /* WSRPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRPlayerCell.h; sourceTree = "<group>"; };
+		9EC4C04A19108C8E009B9965 /* WSRPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRPlayerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 				9E90E296190E85860029DB6E /* WSRAppDelegate.h */,
 				9E90E297190E85860029DB6E /* WSRAppDelegate.m */,
 				9E90E299190E85860029DB6E /* Main.storyboard */,
+				9EC4C04919108C8E009B9965 /* WSRPlayerCell.h */,
+				9EC4C04A19108C8E009B9965 /* WSRPlayerCell.m */,
 				9EA80D19190F3482005A2AF3 /* WSRPlayersViewController.h */,
 				9EA80D1C190F355B005A2AF3 /* WSRPlayer.h */,
 				9EA80D1D190F355B005A2AF3 /* WSRPlayer.m */,
@@ -368,6 +373,7 @@
 				9EA80D1B190F3482005A2AF3 /* WSRPlayersViewController.m in Sources */,
 				9EA80D1E190F355B005A2AF3 /* WSRPlayer.m in Sources */,
 				9E90E294190E85860029DB6E /* main.m in Sources */,
+				9EC4C04B19108C8E009B9965 /* WSRPlayerCell.m in Sources */,
 				9E90E298190E85860029DB6E /* WSRAppDelegate.m in Sources */,
 				9E90E29E190E85860029DB6E /* WSRViewController.m in Sources */,
 			);

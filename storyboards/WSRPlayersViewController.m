@@ -8,6 +8,7 @@
 
 #import "WSRPlayersViewController.h"
 #import "WSRPlayer.h"
+#import "WSRPlayerCell.h"
 
 @interface WSRPlayersViewController ()
 
@@ -59,18 +60,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
+    WSRPlayerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
     
     WSRPlayer *player = (self.players)[indexPath.row];
-    
-    UILabel *nameLabel = (UILabel *)[cell viewWithTag:100];
-    nameLabel.text = player.name;
-    
-    UILabel *gameLabel = (UILabel *)[cell viewWithTag:101];
-    gameLabel.text = player.game;
-    
-    UIImageView *ratingImageView = (UIImageView *)[cell viewWithTag:102];
-    ratingImageView.image = [self imageForRating:player.rating];
+    cell.nameLabel.text = player.name;
+    cell.gameLabel.text = player.game;
+    cell.ratingImageView.image = [self imageForRating:player.rating];
     
     return cell;
 }
